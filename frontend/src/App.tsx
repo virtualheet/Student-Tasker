@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="app">
       <div className="background" />
-      {loggedIn ? <TaskManagerPage /> : <LoginPage setLoggedIn={setLoggedIn} />}
+      <TaskManagerPage /> 
     </div>
   );
 };
